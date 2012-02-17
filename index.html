@@ -3,11 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>Maxime AILLOUD</title>
+        <meta name="viewport" content="width=device-width">
         <meta name="description" content="Blog de Maxime AILLOUD">
         <meta name="author" content="Maxime AILLOUD">
 
         <!-- styles -->
-        <link href="styles/bootstrap.min.css" rel="stylesheet">
+        <link href="styles/bootstrap.css" rel="stylesheet">
+        <link href="styles/bootstrap-responsive.css" rel="stylesheet">
         <link href="styles/style.css" rel="stylesheet">
 
         <!-- Le fav and touch icons -->
@@ -19,14 +21,57 @@
 
     <body>
 
-        <div class="container-fluid">
-            
-            <hr>
+        <div class="container">
 
-            <footer>
+            <header class="mainHeader">
+                <h1>Maxime AILLOUD</h1>
+                <p class="lead">L'apprentissage à mon service, et au vôtre</p>
+
+                <div class="subnav">
+                    <ul class="nav nav-pills">
+                      <li><a href="#">Articles</a></li>
+                      <li><a href="#">Expérimentations</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <section class="postList">
+                <div class="row">
+                    <div class="span12">
+                        <article id="post1">
+                            <h1>Nobis enim impedit esse.</h1>
+                            <header>Publié le <time datetime="04-02-2012" pubdate="">04-02-2012</time> par luc.gomes</header>
+                            <p>
+                                Sed quia nisi voluptate. Fugit et nobis expedita. Id sequi placeat sint. Asperiores quasi fugit quas.
+                                Sunt harum odit hic. Ducimus maiores dolores hic sint.
+                            </p>
+                        </article>
+                        <article id="post2">
+                            <h1>Nobis enim impedit esse.</h1>
+                            <header>Publié le <time datetime="04-02-2012" pubdate="">04-02-2012</time> par luc.gomes</header>
+                            <p>
+                                Sed quia nisi voluptate. Fugit et nobis expedita. Id sequi placeat sint. Asperiores quasi fugit quas.
+                                Sunt harum odit hic. Ducimus maiores dolores hic sint.
+                            </p>
+                        </article>
+                        <article id="post3">
+                            <h1>Nobis enim impedit esse.</h1>
+                            <header>Publié le <time datetime="04-02-2012" pubdate="">04-02-2012</time> par luc.gomes</header>
+                            <p>
+                                Sed quia nisi voluptate. Fugit et nobis expedita. Id sequi placeat sint. Asperiores quasi fugit quas.
+                                Sunt harum odit hic. Ducimus maiores dolores hic sint.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="mainFooter">
+                <p class="pull-right"><a href="#">Back to top</a></p>
                 <p>♡2012 by Maxime AILLOUD. Copying is an act of love. Please copy.</p>
             </footer>
-        </div><!--/.fluid-container-->
+
+        </div>
 
     </body>
 </html>
