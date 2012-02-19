@@ -22,19 +22,9 @@
     <body>
 
         <div class="container">
+            {% include 'layouts/header.twig'%}
 
-            <header class="mainHeader">
-                <h1>Maxime AILLOUD</h1>
-                <p class="lead">L'apprentissage à mon service, et au vôtre</p>
-
-                <div class="subnav">
-                    <ul class="nav nav-pills">
-                      <li><a href="#">Articles</a></li>
-                      <li><a href="#">Expérimentations</a></li>
-                    </ul>
-                </div>
-            </header>
-
+            {{ content }}
             <ul class="postList unstyled">
                 <li class="postTitle">
                     <h1>Récupérer une partition de boot Windows 7<time datetime="04-02-2012" pubdate="" class="pubdate">04-02-2012</time></h1>
@@ -53,10 +43,7 @@
                 </li>
             </ul>
 
-            <footer class="mainFooter">
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>♡2012 by Maxime AILLOUD. Copying is an act of love. Please copy.</p>
-            </footer>
+            {% include 'layouts/footer.twig'%}
 
         </div>
 
