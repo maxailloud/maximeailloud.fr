@@ -23,3 +23,40 @@
   padding:35px 0 36px;
   border-top:1px solid #e5e5e5;
 }
+.postList .postTitle ~ .postTitle { margin-top:10px; }
+.postList h1 {
+  background:#0c0d0e;
+  padding:0 0 0 10px;
+  font-size:16px;
+  line-height:2;
+}
+.postList h1 .pubdate {
+  float:right;
+  position:relative;
+  text-decoration:none;
+  padding:0 10px 0 5px;
+  border-left:5px solid #999999;
+  background-color:#999999;
+  color:black;
+}
+.postList h1 .pubdate:before, .postList h1 .pubdate:after {
+  content:"";
+  position:absolute;
+  top:50%;
+  width:0;
+  height:0;
+}
+.postList h1 .pubdate:before {
+  left:-14px;
+  border-top:11px solid transparent;
+  border-bottom:11px solid transparent;
+  border-right:11px solid #999999;
+  margin-top:-11px;
+}
+.postList h1 .pubdate:after {
+  left:-10px;
+  border-top:6px solid transparent;
+  border-bottom:6px solid transparent;
+  border-right:6px solid white;
+  margin-top:-6px;
+}
