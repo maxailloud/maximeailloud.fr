@@ -2,6 +2,8 @@ body {
   background-image:none;
   background-color:#272b30;
 }
+
+/**** Main header ****/
 .mainHeader {
   position:relative;
   margin-top:30px;
@@ -21,13 +23,17 @@ body {
   padding-bottom:11px;
   border-radius:0px;
 }
-.postList { padding-left:15px; }
+
+/**** Main footer ****/
 .mainFooter {
   margin-top:45px;
   padding:35px 0 36px;
   border-top:1px solid #e5e5e5;
 }
 .mainFooter a { color:white; }
+
+/**** Post list ****/
+.postList { padding-left:15px; }
 .postList .postTitle ~ .postTitle { margin-top:10px; }
 .postList h1 {
   background:#0c0d0e;
