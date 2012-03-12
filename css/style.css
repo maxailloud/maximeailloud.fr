@@ -1,0 +1,70 @@
+body {
+    background-color: #CCCCCC;
+}
+
+/**** Main header ****/
+.mainHeader {
+    margin-top: 30px;
+}
+
+/**** Main footer ****/
+.mainFooter {
+    margin-top: 45px;
+    padding-top: 15px;
+    border-top: 1px solid #888888;
+}
+
+/**** Post list ****/
+.postList {
+    padding-left: 15px;
+}
+
+.postList .postTitle ~ .postTitle {
+    margin-top: 10px;
+}
+
+.postList h1 {
+    background: #F5F5F5;
+    box-shadow: 5px 5px 5px #888;
+    padding: 0 0 0 10px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.postList h1:hover {
+    box-shadow: 10px 10px 10px #888;
+}
+
+.postList h1 .pubdate {
+    float: right;
+    position: relative;
+    text-decoration: none;
+    padding: 0 10px 0 5px;
+    border-left: 5px solid #0088CC;
+    background-color: #0088CC;
+    color: white;
+}
+
+.postList h1 .pubdate:before, .postList h1 .pubdate:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+}
+
+.postList h1 .pubdate:before {
+    left: -16px;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-right: 11px solid #0088CC;
+    margin-top: -11px;
+}
+
+.postList h1 .pubdate:after {
+    left: -11px;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid white;
+    margin-top: -6px;
+}
