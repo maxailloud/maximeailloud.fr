@@ -40,7 +40,6 @@ body {
     position: relative;
     text-decoration: none;
     padding: 0 10px 0 5px;
-    border-left: 5px solid #CCC;
     background-color: #0088CC;
     color: white;
 }
@@ -53,18 +52,10 @@ body {
     height: 0;
 }
 
-.postList h1 .pubdate:before {
-    left: -12px;
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent;
-    border-right: 12px solid #CCC;
-    margin-top: -12px;
-}
-
 .postList h1 .pubdate:after {
-    left: -5px;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-right: 5px solid #08C;
-    margin-top: -5px;
+    left: -6px;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid #08C;
+    margin-top: -6px;
 }
