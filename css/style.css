@@ -1,74 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
 body {
     background-color: #CCCCCC;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-/**** Post list ****/
-.postList {
-    padding-left: 15px;
+.container {
+    padding: 20px 0 0 0;
 }
 
-.postList .postTitle ~ .postTitle {
-    margin-top: 10px;
+.hero-unit {
+    background: #FFF;
 }
 
-.postList h1 {
-    background:     #F5F5F5;
-    box-shadow:     5px 5px 5px #888;
-    padding:        0 0 0 10px;
-    font-size:      16px;
-    line-height:    2;
+.page-header {
+    clear: both;
 }
 
-@media (max-width: 550px) {
-    .postList h1 .pubdate {
-        display:            block;
-        float:              none;
-        background-color:   inherit;
-        color:              #999;
-        font-size:          12px;
-    }
+.thumbnail {
+    height: 220px;
+    margin: auto;
 }
 
-@media (min-width: 551px) {
-    /**** Post list ****/
-    .postList h1 .pubdate {
-        display:            inline;
-        float:              right;
-        position:           relative;
-        text-decoration:    none;
-        padding:            0 10px 0 5px;
-        background-color:   #0088CC;
-        color:              white;
-    }
-    .postList h1:hover {
-        box-shadow: 10px 10px 10px #888;
-    }
-
-    .postList h1 .pubdate:before, .postList h1 .pubdate:after {
-        content:    "";
-        position:   absolute;
-        top:        50%;
-        width:      0;
-        height:     0;
-    }
-
-    .postList h1 .pubdate:after {
-        left:           -6px;
-        border-top:     6px solid transparent;
-        border-bottom:  6px solid transparent;
-        border-right:   6px solid #08C;
-        margin-top:     -6px;
-    }
+#info {
+    height: 230px;
 }
 
-/**** Main header ****/
-.mainHeader {
-    margin-top: 30px;
+#info p{
+    margin-top: 20px;
 }
 
-/**** Main footer ****/
-.mainFooter {
-    margin-top:     45px;
-    padding-top:    15px;
-    border-top:     1px solid #888888;
+#contact h2, #contact ul {
+    width: 250px;
+}
+
+#contact h2 {
+    margin: 20px auto 0px auto;
+}
+
+#contact ul {
+    margin: auto;
+}
+
+#contact li {
+    line-height: 24px;
+}
+
+#contact li a {
+    vertical-align: middle;
 }

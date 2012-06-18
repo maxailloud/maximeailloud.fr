@@ -1,0 +1,127 @@
+[class^="vsmi_"],
+[class*=" vsmi_"] {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: .3em;
+  line-height: 24px;
+  vertical-align: middle;
+  background: url(../img/vector-social-media-sprite-icons.png) no-repeat 24px 24px;
+}
+
+[class^="vsmi_"]:last-child,
+[class*=" vsmi_"]:last-child {
+  margin-left: 0;
+}
+
+.vsmi_500px{ background-position: 0 0;  }
+.vsmi_aboutme{ background-position: -25px 0;  }
+.vsmi_add_this{ background-position: -50px 0;  }
+.vsmi_amazon{ background-position: -75px 0;  }
+.vsmi_aol{ background-position: -100px 0;  }
+.vsmi_app_store_2{ background-position: -125px 0;  }
+.vsmi_app_store{ background-position: -150px 0;  }
+.vsmi_apple{ background-position: -175px 0;  }
+.vsmi_bebo{ background-position: -200px 0;  }
+.vsmi_behance{ background-position: -225px 0;  }
+.vsmi_bing{ background-position: -250px 0;  }
+.vsmi_blip{ background-position: -275px 0;  }
+.vsmi_blogger{ background-position: -300px 0;  }
+.vsmi_button_blue{ background-position: -325px 0;  }
+.vsmi_button_green{ background-position: -350px 0;  }
+.vsmi_button_light-blue{ background-position: -375px 0;  }
+.vsmi_button_orange{ background-position: -400px 0;  }
+.vsmi_button_red{ background-position: -425px 0;  }
+.vsmi_button_white{ background-position: -450px 0;  }
+.vsmi_button_yellow{ background-position: -475px 0;  }
+.vsmi_coroflot{ background-position: -500px 0;  }
+.vsmi_daytum{ background-position: -525px 0;  }
+.vsmi_delicious{ background-position: -550px 0;  }
+.vsmi_design-bump{ background-position: -575px 0;  }
+.vsmi_designfloat{ background-position: -600px 0;  }
+.vsmi_deviant_art{ background-position: -625px 0;  }
+.vsmi_digg{ background-position: -650px 0;  }
+.vsmi_dribbble{ background-position: -675px 0;  }
+.vsmi_dropplr{ background-position: -700px 0;  }
+.vsmi_drupal{ background-position: -725px 0;  }
+.vsmi_ebay{ background-position: -750px 0;  }
+.vsmi_email{ background-position: -775px 0;  }
+.vsmi_ember{ background-position: -800px 0;  }
+.vsmi_etsy{ background-position: -825px 0;  }
+.vsmi_facebook{ background-position: -850px 0;  }
+.vsmi_feedburner{ background-position: -875px 0;  }
+.vsmi_flickr{ background-position: -900px 0;  }
+.vsmi_foodspotting{ background-position: -925px 0;  }
+.vsmi_forrst{ background-position: -950px 0;  }
+.vsmi_foursquare{ background-position: -975px 0;  }
+.vsmi_friendfeed{ background-position: -1000px 0;  }
+.vsmi_friendster{ background-position: -1025px 0;  }
+.vsmi_gdgt{ background-position: -1050px 0;  }
+.vsmi_github{ background-position: -1075px 0;  }
+.vsmi_google_buzz{ background-position: -1100px 0;  }
+.vsmi_google_plus_black{ background-position: -1125px 0;  }
+.vsmi_google_plus{ background-position: -1150px 0;  }
+.vsmi_google_talk{ background-position: -1175px 0;  }
+.vsmi_google{ background-position: -1200px 0;  }
+.vsmi_gowalla_2{ background-position: -1225px 0;  }
+.vsmi_gowalla{ background-position: -1250px 0;  }
+.vsmi_grooveshark{ background-position: -1275px 0;  }
+.vsmi_heart{ background-position: -1300px 0;  }
+.vsmi_hyves{ background-position: -1325px 0;  }
+.vsmi_icondock{ background-position: -1350px 0;  }
+.vsmi_icq{ background-position: -1375px 0;  }
+.vsmi_identi{ background-position: -1400px 0;  }
+.vsmi_imessage{ background-position: -1425px 0;  }
+.vsmi_instagram{ background-position: -1450px 0;  }
+.vsmi_itune{ background-position: -1475px 0;  }
+.vsmi_lastfm{ background-position: -1500px 0;  }
+.vsmi_linkedin{ background-position: -1525px 0;  }
+.vsmi_meetup{ background-position: -1550px 0;  }
+.vsmi_metacafe{ background-position: -1575px 0;  }
+.vsmi_microsoft{ background-position: -1600px 0;  }
+.vsmi_mister_wong{ background-position: -1625px 0;  }
+.vsmi_mixx{ background-position: -1650px 0;  }
+.vsmi_mobileme{ background-position: -1675px 0;  }
+.vsmi_msn{ background-position: -1700px 0;  }
+.vsmi_myspace{ background-position: -1725px 0;  }
+.vsmi_netvibes{ background-position: -1750px 0;  }
+.vsmi_newsvine{ background-position: -1775px 0;  }
+.vsmi_paypal{ background-position: -1800px 0;  }
+.vsmi_photobucket{ background-position: -1825px 0;  }
+.vsmi_picasa{ background-position: -1850px 0;  }
+.vsmi_pinterest{ background-position: -1875px 0;  }
+.vsmi_podcast{ background-position: -1900px 0;  }
+.vsmi_posterous{ background-position: -1925px 0;  }
+.vsmi_qik{ background-position: -1950px 0;  }
+.vsmi_quora{ background-position: -1975px 0;  }
+.vsmi_reddit{ background-position: 0 -25px;  }
+.vsmi_retweet{ background-position: -25px -25px;  }
+.vsmi_rss{ background-position: -50px -25px;  }
+.vsmi_scribd{ background-position: -75px -25px;  }
+.vsmi_sharethis{ background-position: -100px -25px;  }
+.vsmi_skype{ background-position: -125px -25px;  }
+.vsmi_slashdot{ background-position: -150px -25px;  }
+.vsmi_slideshare{ background-position: -175px -25px;  }
+.vsmi_smugmug{ background-position: -200px -25px;  }
+.vsmi_soundcloud{ background-position: -225px -25px;  }
+.vsmi_spotify{ background-position: -250px -25px;  }
+.vsmi_squidoo{ background-position: -275px -25px;  }
+.vsmi_stackoverflow{ background-position: -300px -25px;  }
+.vsmi_star{ background-position: -325px -25px;  }
+.vsmi_stumbleupon{ background-position: -350px -25px;  }
+.vsmi_technorati{ background-position: -375px -25px;  }
+.vsmi_tumblr{ background-position: -400px -25px;  }
+.vsmi_twitter_2{ background-position: -425px -25px;  }
+.vsmi_twitter{ background-position: -450px -25px;  }
+.vsmi_viddler{ background-position: -475px -25px;  }
+.vsmi_vimeo{ background-position: -500px -25px;  }
+.vsmi_virb{ background-position: -525px -25px;  }
+.vsmi_w3{ background-position: -550px -25px;  }
+.vsmi_wikepedia{ background-position: -575px -25px;  }
+.vsmi_wordpress_2{ background-position: -600px -25px;  }
+.vsmi_wordpress{ background-position: -625px -25px;  }
+.vsmi_xing{ background-position: -650px -25px;  }
+.vsmi_yahoo_buzz{ background-position: -675px -25px;  }
+.vsmi_yahoo{ background-position: -700px -25px;  }
+.vsmi_yelp{ background-position: -725px -25px;  }
+.vsmi_youtube{ background-position: -750px -25px;  }
