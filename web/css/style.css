@@ -63,6 +63,7 @@ ul.coverflow li span
     margin: 0px;
     padding: 0px;
     line-height: 150px;
+    cursor: default;
 }
 
 /* les elements non survoles, lors du survol du parent */
