@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Maxime AILLOUD</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site de Maxime AILLOUD">
+        <meta name="author" content="Maxime AILLOUD">
+
+        <!-- styles -->
+        <link href="{{ app.request.basepath }}/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ app.request.basepath }}/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="{{ app.request.basepath }}/css/vector-social-icons.css" rel="stylesheet">
+        <link href="{{ app.request.basepath }}/css/style.css" rel="stylesheet">
+
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="{{ app.request.basepath }}/img/favicon.ico">
+    </head>
+
+    <body class="container">
+        {% block base %}{% endblock %}
+    </body>
+</html>

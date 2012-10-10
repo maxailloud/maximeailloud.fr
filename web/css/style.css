@@ -1,0 +1,128 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+    background-color: #CCCCCC;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    padding: 20px 0 0 0;
+}
+
+/**** CV ****/
+
+.thumbnail {
+    height: 220px;
+    margin: auto;
+}
+
+#info {
+    height: 230px;
+}
+
+#info p{
+    margin-top: 20px;
+}
+
+#contact h2, #contact ul {
+    width: 250px;
+}
+
+#contact h2 {
+    margin: 20px auto 0px auto;
+}
+
+#contact ul {
+    margin: auto;
+}
+
+#contact li {
+    line-height: 24px;
+}
+
+#contact li a {
+    vertical-align: middle;
+}
+
+
+/**** Coverflow ****/
+
+ul.coverflow
+{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0;
+    -webkit-perspective: 500px;
+}
+
+ul.coverflow li span
+{
+    font-size: 157px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 150px;
+}
+
+/* les elements non survoles, lors du survol du parent */
+ul.coverflow:hover li:not(:hover)
+{
+   -webkit-transform: rotateY(45deg);
+   transform: rotateY(45deg);
+}
+
+ul.coverflow li
+{
+    display: inline-block;
+    width: 112px;
+    height: 165px;
+    background: red;
+    margin-right: -15px;
+    position: relative;
+    z-index: 50;
+
+    -webkit-transition: all .45s;
+    transition: all .45s;
+
+    -webkit-transform: rotateY(45deg);
+    transform: rotateY(45deg);
+}
+
+
+ul.coverflow li:hover,
+ul.coverflow li:first-child:hover,
+ul.coverflow li:nth-child(3) ~ li:hover
+{
+    z-index: 60;
+    -webkit-transform: rotateY(0deg) scale(1.2);
+    transform: rotateY(0deg) scale(1.2);
+}
+
+ul.coverflow:hover li:hover ~ li
+{
+    -webkit-transform: rotateY(-45deg);
+    transform: rotateY(-45deg);
+}
+
+ul.coverflow li:first-child,
+ul.coverflow li:last-child{
+   z-index: 45;
+}
+
+ul.coverflow li:nth-child(3)
+{
+    z-index: 55;
+    -webkit-transform: rotateY(0deg) scale(1.2);
+    transform: rotateY(0deg) scale(1.2);
+}
+
+ul.coverflow li:nth-child(odd){
+    background: crimson;
+}
+
+ul.coverflow li:nth-child(3) ~ li
+{
+    -webkit-transform: rotateY(-45deg);
+    transform: rotateY(-45deg);
+}

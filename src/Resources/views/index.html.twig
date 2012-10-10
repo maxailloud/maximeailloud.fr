@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <div class="row">
+        <div class="span4">
+            <h2>Tees</h2>
+            <p>Liste de sites où l'on peut trouver des t-shirt assez sympa.</p>
+            <p><a class="btn" href="{{ path('tee') }}" title="T-shirt">Voir &rArr;</a></p>
+        </div>
+        <div class="span4">
+            <h2>Figurines</h2>
+            <p>Liste de sites ayant un rapport de près ou de loin avec des figurines de jeux, ou non d'ailleurs, à peindre.</p>
+            <p><a class="btn" href="{{ path('figurines') }}" title="Figurines">Voir &rArr;</a></p>
+       </div>
+        <div class="span4">
+            <h2>Développement</h2>
+            <p>Liste de ressources ayant un rapport de près comme de loin avec le développement informatique.</p>
+            <p><a class="btn disabled" href="#">A venir ...</a></p>
+        </div>
+    </div>
+{% endblock %}

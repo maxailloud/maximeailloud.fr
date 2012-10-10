@@ -1,29 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>Maxime AILLOUD</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Blog de Maxime AILLOUD">
-        <meta name="author" content="Maxime AILLOUD">
+{% extends 'layout.html.twig' %}
 
-        <!-- styles -->
-        <link href="web/css/bootstrap.min.css" rel="stylesheet">
-        <link href="web/css/bootstrap-responsive.min.css" rel="stylesheet">
-        <link href="web/css/famstrap.css" rel="stylesheet">
-        <link href="web/css/vector-social-icons.css" rel="stylesheet">
-        <link href="web/css/style.css" rel="stylesheet">
-
-        <!-- Le fav and touch icons -->
-        <link rel="shortcut icon" href="web/img/favicon.ico">
-    </head>
-
-    <body class="container">
-
+{% block base %}
         <section id="overview" class="row-fluid">
-
             <section id="picture" class="span4">
-                <img src="web/img/me.jpg" title="Photo de profil" alt="Photo de profil" class="thumbnail" />
+                <img src="{{ app.request.basepath }}/img/me.jpg" title="Photo de profil" alt="Photo de profil" class="thumbnail" />
             </section>
 
             <section id="info" class="well span8">
@@ -34,18 +14,16 @@
                     Donec laoreet faucibus odio quis sollicitudin. Sed sagittis semper ultrices. Morbi eget eros felis, vel convallis nibh. Quisque ut felis magna, at lobortis sem.
                 </p>
             </section>
-
         </section>
 
         <section id="informations" class="row-fluid">
-
             <section id="contact" class="span4">
                 <h2>Informations</h2>
                 <ul class="unstyled">
                     <li>
                         <i class="icon-map-marker"></i>
-                        19 rue de Marseille
-                        69007 Lyon - France
+                        5 rue Jean OTTAVI
+                        69100 Villeurbanne - France
                     </li>
                     <li><i class="fam_phone"></i><a class="data" title="tel:0633466667" href="tel:0633466667">06 33 46 66 67</a></li>
                 </ul>
@@ -59,7 +37,6 @@
             </section>
 
             <section id="presentation" class="span8">
-
                 <section id="experiences" class=" row-fluid">
                     <h1 class="page-header">Experiences</h1>
                     <ul>
@@ -92,10 +69,6 @@
                         <li>Formation 5</li>
                     </ul>
                 </section>
-
             </section>
-
         </section>
-
-    </body>
-</html>
+{% endblock %}
