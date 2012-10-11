@@ -4,24 +4,9 @@
     <h1>Figurines</h1>
 
     <ul>
-        <li><a href="http://sciborminiatures.com/" title="http://sciborminiatures.com/">http://sciborminiatures.com/</a></li>
-        <li><a href="http://www.prince-august.net/" title="http://www.prince-august.net/">http://www.prince-august.net/</a></li>
-        <li><a href="http://www.letempledujeu.fr/" title="http://www.letempledujeu.fr/">http://www.letempledujeu.fr/</a></li>
-        <li><a href="http://www.feldherr.net/" title="http://www.feldherr.net/">http://www.feldherr.net/</a></li>
-        <li><a href="http://chapterhousestudios.com/" title="http://chapterhousestudios.com/">http://chapterhousestudios.com/</a></li>
-        <li><a href="http://fortressofunforgiven.homestead.com/Home.html" title="http://fortressofunforgiven.homestead.com/Home.html">http://fortressofunforgiven.homestead.com/Home.html</a></li>
-        <li><a href="http://eurobitz.com/" title="http://eurobitz.com/">http://eurobitz.com/</a></li>
-        <li><a href="http://www.hobby-max.fr/" title="http://www.hobby-max.fr/">http://www.hobby-max.fr/</a></li>
-        <li><a href="http://www.back2base-ix.com/index.php" title="http://www.back2base-ix.com/index.php">http://www.back2base-ix.com/index.php</a></li>
-        <li><a href="http://www.everyoneweb.fr/franshop/" title="http://www.everyoneweb.fr/franshop/">http://www.everyoneweb.fr/franshop/</a></li>
-        <li><a href="http://www.supermagnete.ch/fre/" title="http://www.supermagnete.ch/fre/">http://www.supermagnete.ch/fre/</a></li>
-        <li><a href="http://www.supermagnete.ch/fre/" title="http://www.supermagnete.ch/fre/">http://www.supermagnete.ch/fre/</a></li>
-        <li><a href="http://www.cenotaphe.net/" title="http://www.cenotaphe.net/">http://www.cenotaphe.net/</a></li>
-        <li><a href="http://www.amazingmagnets.com/" title="http://www.amazingmagnets.com/">http://www.amazingmagnets.com/</a></li>
-        <li><a href="http://hitechminiatures.com/" title="http://hitechminiatures.com/">http://hitechminiatures.com/</a></li>
-        <li><a href="http://figurinesfantastiques.com/" title="http://figurinesfantastiques.com/">http://figurinesfantastiques.com/</a></li>
-        <li><a href="http://www.minisocles.fr/" title="http://www.minisocles.fr/">http://www.minisocles.fr/</a></li>
-        <li><a href="http://www.w40karmycreator.com/" title="http://www.w40karmycreator.com/">http://www.w40karmycreator.com/</a></li>
+        {% for figurine in figurines %}
+            <li><a href="{{ figurine }}" title="{{ figurine }}">{{ figurine }}</a></li>
+        {% endfor %}
     </ul>
 
     <a href="{{ path('homepage') }}">Retour</a>

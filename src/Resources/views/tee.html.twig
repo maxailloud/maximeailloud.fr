@@ -4,19 +4,9 @@
     <h1>Tee</h1>
 
     <ul>
-        <li><a href="http://www.604republic.com/" title="http://www.604republic.com/">http://www.604republic.com/</a></li>
-        <li><a href="http://www.splitreason.com/" title="http://www.splitreason.com/">http://www.splitreason.com/</a></li>
-        <li><a href="http://www.play.com/Clothing/Clothing/6-/RegionHome.html" title="http://www.play.com/Clothing/Clothing/6-/RegionHome.html">http://www.play.com/Clothing/Clothing/6-/RegionHome.html</a></li>
-        <li><a href="http://www.jinx.com/" title="http://www.jinx.com/">http://www.jinx.com/</a></li>
-        <li><a href="http://www.teemagnet.com/" title="http://www.teemagnet.com/">http://www.teemagnet.com/</a></li>
-        <li><a href="http://www.threadless.com/" title="http://www.threadless.com/">http://www.threadless.com/</a></li>
-        <li><a href="http://www.levelupstudios.com/" title="http://www.levelupstudios.com/">http://www.levelupstudios.com/</a></li>
-        <li><a href="http://www.thinkgeek.com/tshirts-apparel/" title="http://www.thinkgeek.com/tshirts-apparel/">http://www.thinkgeek.com/tshirts-apparel/</a></li>
-        <li><a href="http://www.teefury.com/" title="http://www.teefury.com/">http://www.teefury.com/</a></li>
-        <li><a href="http://www.qwertee.com/" title="http://www.qwertee.com/">http://www.qwertee.com/</a></li>
-        <li><a href="http://www.neatoshop.com/" title="http://www.neatoshop.com/">http://www.neatoshop.com/</a></li>
-        <li><a href="http://www.welovefine.com/" title="http://www.welovefine.com/">http://www.welovefine.com/</a></li>
-        <li><a href="http://shirt.woot.com/" title="http://shirt.woot.com/">http://shirt.woot.com/</a></li>
+        {% for tee in tees %}
+            <li><a href="{{ tee }}" title="{{ tee }}">{{ tee }}</a></li>
+        {% endfor %}
     </ul>
 
     <a href="{{ path('homepage') }}">Retour</a>
